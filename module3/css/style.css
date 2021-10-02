@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.7em;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 30px;
+}
+
+h3 {
+    margin-top: 0;
+    padding: 5px;
+}
+
+.box {
+    border: 20px solid rgba(255, 255, 255, 0);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #999999;
+    position: relative;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.content {
+    margin-top: 30px;
+    overflow: auto;
+    padding: 20px;
+    color: black;
+}
+
+.title {
+    width: 100%;
+    position: absolute;
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+#t1 {
+    background-color: rgb(199, 132, 132);
+}
+
+#t2 {
+    background-color: rgb(150, 0, 0);
+    color: white;
+}
+
+#t3 {
+    background-color: rgb(9, 180, 166);
+}
+
+#header-nav {
+    border: none;
+    border-radius: 0;
+    background-color: #999999;
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+.navbar-brand a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.5em;
+}
+
+.container {
+    margin-left: 2px;
+}
+
+.row {
+    margin: 20px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #000000;
+    font-size: 1.1em;
+    border-radius: 4px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    background-color: #bbbbbb;
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: black;
+    border-width: 3px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #bbbbbb;
+}
